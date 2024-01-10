@@ -33,4 +33,7 @@ const gallery = document.querySelector('.gallery');
 const newImg = images
   .map((image) => `<li class="img-list"><img class="picture" src="${image.url}" alt="${image.alt}" width="320px" /></li>`)
   .join("");
-gallery.insertAdjacentHTML("afterbegin", newImg)
+gallery.insertAdjacentHTML("afterbegin", newImg);
+gallery.style.display = "flex";
+
+
