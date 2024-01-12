@@ -37,6 +37,6 @@ gallery.insertAdjacentHTML("afterbegin", newImg);
 gallery.style.display = "flex";
 gallery.style.width = "1440px"
 gallery.style.flex.wrap = "wrap"
-// gallery.style.gap = "24px"
+
 
 console.log(newImg);
