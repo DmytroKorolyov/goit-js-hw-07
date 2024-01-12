@@ -31,9 +31,12 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 const newImg = images
-  .map((image) => `<li class="img-list"><img class="picture" src="${image.url}" alt="${image.alt}" width="320px" /></li>`)
+  .map((image) => `<li class="img-list"><img class="picture" src="${image.url}" alt="${image.alt}" width="360px" height="300px" /></li>`)
   .join("");
 gallery.insertAdjacentHTML("afterbegin", newImg);
 gallery.style.display = "flex";
+gallery.style.width = "1440px"
+gallery.style.flex.wrap = "wrap"
+// gallery.style.gap = "24px"
 
-
+console.log(newImg);

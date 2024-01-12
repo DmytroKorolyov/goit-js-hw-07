@@ -7,3 +7,6 @@ items.forEach(function (item) {
     const y = item.querySelectorAll('li');
     console.log(`Elements: ${y.length}`)
 })
+
+
+

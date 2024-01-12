@@ -13,3 +13,12 @@ body {
   line-height: 1.5;
 
 }
+
+
+
+
+.gallary {
+  max-width: 1400px;
+  display: flex;
+  background: #FFF;
+}
