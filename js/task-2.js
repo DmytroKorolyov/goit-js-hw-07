@@ -40,3 +40,11 @@ gallery.style.flex.wrap = "wrap"
 
 
 console.log(newImg);
+
+
+
+
+
+
+
+
